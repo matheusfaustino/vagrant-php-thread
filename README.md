@@ -28,8 +28,8 @@ Notes
 Author
 ------
 
-Matheus Faustino
-matheuspfaustino (at) gmail (dot) com
+- Matheus Faustino
+- matheuspfaustino (at) gmail (dot) com
 
 License
 -------
