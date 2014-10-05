@@ -18,11 +18,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # folder to sync
   config.vm.synced_folder "./www", "/var/www", create: true, group: "www-data", owner: "www-data"
 
-  #box's name
-  config.vm.provider "virtualbox" do |v|
-    v.name = "Pthread Server"
-  end 
-
   # config shell script to run in the creation
   config.vm.provision :shell, path: "bootstrap.sh"
 
